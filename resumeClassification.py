@@ -12,9 +12,9 @@ class exportToCSV:
                 'Name',
                 'Email Address',
                 'Phone Number',
-                'Institute','Years1',
-                'Institute','Years2',
-                'Institute','Years3',
+                'Elementary School','Years1',
+                'Junior High School','Years2',
+                'Senior High School','Years3',
                 'Institute','Years4',
                 'Experience',
                 'Degrees',
@@ -25,3 +25,4 @@ class exportToCSV:
         fileIn = open(fileName)
         inString = fileIn.read()
         fileIn.close()
+    
